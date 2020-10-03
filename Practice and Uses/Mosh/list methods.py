@@ -1,0 +1,10 @@
+numbers1 = [1,2,3,4,5,6,7]
+numbers1.append(10)
+numbers2 = numbers1.copy()
+numbers1.reverse()
+numbers2.insert(4,11)
+numbers3 = numbers2.copy()
+numbers3.clear()
+print(numbers1)
+print(numbers2)
+print(numbers3)
